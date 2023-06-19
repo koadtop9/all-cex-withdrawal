@@ -78,7 +78,6 @@ def okx_withdraw(address, amount_to_withdrawal, wallet_number):
         'secret': API.okx_apisecret,
         'password': API.okx_passphrase,
         'enableRateLimit': True,
-        'proxies': proxies,
     })
 
     try:
